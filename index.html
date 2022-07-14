@@ -12,8 +12,12 @@
 body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
 body, html {
   height: 100%;
-  color: #777;
+  color: #447; 
   line-height: 1.8;
+  background-image: url("https://pbs.twimg.com/media/EU_er5XUwAA8qaB.png:large");
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
 }
 
 /* Create a Parallax Effect */
@@ -59,15 +63,15 @@ body, html {
 <body>
 
 <!-- Navbar (sit on top) -->
-<div class="w3-top">
+<div class="w3-top w3-light-gray w3-opacity">
   <div class="w3-bar" id="myNavbar">
     <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
       <i class="fa fa-bars"></i>
     </a>
-    <a href="#home" class="w3-bar-item w3-button">HOME</a>
-    <a href="#a" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-bookmark"></i> 企劃概述</a>
-    <a href="#b" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-gift"></i> 一般應募品</a>
-    <a href="#c" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-gift"></i> 鈔能力蝦應募品</a>
+    <a href="#home" class="w3-bar-item w3-text-black"><i class="fa fa-home"></i> HOME</a>
+    <a href="#a" class="w3-bar-item w3-button w3-hide-small w3-text-black"><i class="fa fa-bookmark"></i> 企劃概述</a>
+    <a href="#b" class="w3-bar-item w3-button w3-hide-small w3-text-black"><i class="fa fa-gift"></i> 一般應募品</a>
+    <a href="#c" class="w3-bar-item w3-button w3-hide-small w3-text-black"><i class="fa fa-gift"></i> 鈔能力蝦應募品</a>
     </a>
   </div>
 
@@ -80,9 +84,9 @@ body, html {
 </div>
 
 <!-- First Parallax Image with Logo Text -->
-<div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
+<div class="bgimg-1 w3-display-container" id="home">
   <div class="w3-display-middle" style="white-space:nowrap;">
-    <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity"><span class="w3-hide-small">Gawr </span> Gura 生日公車企劃<span class="w3-hide-small"> - 2022</span></span>
+    <span class="w3-center w3-padding-large w3-blue w3-xlarge w3-wide w3-animate-opacity"><span class="w3-hide-small">Gawr </span> Gura 生日公車企劃<span class="w3-hide-small"> - 2022</span></span>
   </div>
 </div>
 
@@ -142,7 +146,7 @@ body, html {
 
 
   <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
-  <div class="w3-row-padding w3-center w3-padding-64">
+  <div class="w3-row-padding w3-center w3-padding-large">
     <div class="w3-col m3 w3-padding-small">
       <img src="\img\bus1.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="台中 35｜車牌197-U8 @lydia601303041">
     </div>
@@ -171,7 +175,7 @@ body, html {
 </div>
 
 <!-- Container (About Section) -->
-<div class="w3-content w3-container w3-padding-64" id="b">
+<div class="w3-content w3-container w3-padding-large" id="b">
   <hr style="border-width:2px">
   <h3 class="w3-center">一般應募品</h3>
   <div class="w3-row">
@@ -190,7 +194,7 @@ body, html {
 </div>
 
 <!-- Container (About Section) -->
-<div class="w3-content w3-container w3-padding-64" id="c">
+<div class="w3-content w3-container w3-padding-large" id="c">
   <hr style="border-width:2px">
   <h3 class="w3-center">鈔能力蝦應募品</h3>
   <p class="w3-center">包含以上一般應募品</p>
@@ -252,7 +256,7 @@ body, html {
 </div>
 
 <!-- Footer -->
-<footer class="w3-center w3-padding-64 w3-dark-grey">
+<footer class="w3-center w3-padding-64 w3-blue-gray">
   <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
   <div class="w3-xlarge w3-section">
     <a target="_blank" rel="noopener noreferrer" href="https://discord.gg/aUR82YK8GE"><i class="fab fa-discord w3-hover-opacity"></i></a>
